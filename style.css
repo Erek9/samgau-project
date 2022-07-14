@@ -1,1 +1,20 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.about {
+    list-style: none;
+    display: flex;  
+}
 
+.about li {
+    padding-right: 20px;
+    font-size: 14px;
+}
+a {
+   text-decoration: none;
+   color: #000;
+   
+}
