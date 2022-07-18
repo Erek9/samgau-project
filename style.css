@@ -1,7 +1,14 @@
+
+body {
+    margin: 0;
+}
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 86px;
+    font-family: PT Root UIMedium;
+    
     
 }
 .about {
@@ -10,11 +17,72 @@
 }
 
 .about li {
-    padding-right: 20px;
+    padding-right: 35px;
     font-size: 14px;
 }
-a {
+.about li a {
    text-decoration: none;
    color: #000;
+  
    
+}
+.fire {
+    display: flex;
+  
+}
+.fire img {
+    padding-right: 3px;
+}
+.logoHeader {
+    display: flex;
+    align-items: center;
+}
+.logoHeader .circle a img {
+    width: 32px;
+}
+.logoHeader .samgau a img {
+    width: 100px;
+    height: 17px;
+}
+.logoHeader {
+    margin-left: 32px;
+}
+.send {
+    color: #2BC23A;
+    margin-right: 20px;
+    padding: 12px 24px;
+    border-radius: 50px;
+    background: rgba(43, 194, 58, 0.05);
+}
+
+.icon p {
+    background: #F1553F;
+    border-radius: 19px;
+    padding: 2px 8px;
+    margin: 0px;
+    color: #fff;
+    font-size: 10px;
+    margin-left: 0px;
+    align-items: flex-end;
+    font-family: 'Raleway', sans-serif;
+   
+}
+.icon {
+    margin-bottom: 35px;
+}
+.samgau {
+    margin-left: 10px;
+}
+
+
+.career {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+.careerSamgau {
+width: 600px;
+font-family: 'Raleway';
+font-weight: 600;
+text-align: center;
 }
